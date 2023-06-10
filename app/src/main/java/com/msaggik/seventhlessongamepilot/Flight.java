@@ -32,7 +32,7 @@ public class Flight {
         flight2 = Bitmap.createScaledBitmap(flight2, width, height, false);
 
         // начальное местоположение полёта
-        y = screenY / 2; // посередине оси Y
+        y = screenY - screenY / 2; // посередине оси Y
         x = screenX / 21; // практически вначале оси X
     }
 
